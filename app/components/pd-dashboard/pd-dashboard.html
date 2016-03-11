@@ -1,0 +1,20 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../components/pd-drawer/pd-drawer.html">
+<dom-module id="pd-dashboard">
+    <template>
+        <pd-drawer>
+            <div class="logo">Logo here</div>
+            <div class="left-menu p-t-1">
+            <pd-list-item position="left" icon="home" url="#!">Home</pd-list-item>
+
+            </div>
+        </pd-drawer>
+        This content is in our pd-dashboard element
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: "pd-dashboard"
+    });
+</script>
